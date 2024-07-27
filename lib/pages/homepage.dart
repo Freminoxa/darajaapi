@@ -9,7 +9,7 @@ class Homepage extends StatelessWidget {
     dynamic transactionInitialisation;
 //Wrap it with a try-catch
     try {
-//Run it
+
       transactionInitialisation =
           await MpesaFlutterPlugin.initializeMpesaSTKPush(
               businessShortCode:
